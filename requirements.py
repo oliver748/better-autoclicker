@@ -1,0 +1,3 @@
+keyboard
+win32api
+win32con
