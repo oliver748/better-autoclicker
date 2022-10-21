@@ -4,7 +4,9 @@ An autoclicker a bit different than your normal one — it works by just holding
 Includes:
 1. Custom clicking delay
 2. Deviation for the clicking delay to minimize detectability
-3. Toggle key
+3. Toggle key 
+4. Sound option: plays a sound when toggling autoclicker on/off
+5. Exit key
 
 This autoclicker isn't intented for games like Cookie Clicker but more for games like Minecraft where it can be used in PvP.
 
