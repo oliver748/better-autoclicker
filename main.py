@@ -1,8 +1,8 @@
 import win32api, win32con
 from time import sleep
 from random import randint
-from utils import key_state, switch_bool, clear
 from playsound import playsound
+from utils import key_state, switch_bool, clear
 
 
 TOGGLE_KEY = "½"
@@ -22,7 +22,7 @@ def mouse_state():
         return True
 
 
-def autoclicker(delay, deviation, before_delay, sound):
+def autoclicker(delay, deviation, before_delay, play_sound):
     toggle = True
     console_log(toggle, "?")
     while not key_state(EXIT_KEY):
@@ -52,7 +52,7 @@ def autoclicker(delay, deviation, before_delay, sound):
 if __name__ == "__main__":
     clear()
     print("recommended settings:",
-            "click delay 30-35ms, deviation 5-7ms, before delay 125ms\n",)
+            "click delay 30-35ms, deviation 5-7ms, before delay 125ms\n")
     delay = int(input("click delay (ms): "))
     deviation = int(input("deviation (ms): "))
     before_delay = int(input("delay before clicking (ms): "))
