@@ -1,3 +1,4 @@
 keyboard
 win32api
 win32con
+playsound==1.2.2
